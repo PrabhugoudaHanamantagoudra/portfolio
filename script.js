@@ -1,4 +1,12 @@
 // Form submission
+
+let menuIcon = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menuIcon.onclick = () => {
+  navbar.classList.toggle("active");
+};
+
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
   window.scrollTo(0, window.scrollY); // Prevent scroll jump
@@ -45,3 +53,4 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
       messageEl.style.color = "red";
     });
 });
+
