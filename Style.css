@@ -877,17 +877,3 @@ gap: 1rem;
         margin: 1rem;
     }
 }
-@media (max-width: 768px) {
-    #menu-icon {
-        display: block;       /* show menu icon */
-        position: absolute;
-        top: 15px;
-        right: 15px;          /* move to right */
-        left: auto;
-        transform: none;
-        font-size: 24px;      /* small icon size */
-        cursor: pointer;
-    }
-
-   
-}
