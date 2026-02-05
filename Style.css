@@ -822,17 +822,14 @@ gap: 1rem;
         text-align: center;
         gap: 5rem;
     }
-
     .about-img img {
         width: 70vw;
         border: 25px solid var(--main-color);
         margin-bottom: 3rem;
     }
-
     .about-circle {
         display: none;
     }
-
     .services-container {
         flex-direction: column;
         gap: 3rem;
@@ -843,6 +840,7 @@ gap: 1rem;
         width: 100%;
         max-width: 90%;
         padding: 3rem 2rem;
+        display: inline-block;
     }
 
     .timeline-items::before {
